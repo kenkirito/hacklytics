@@ -1,5 +1,5 @@
 Frontend ⚛️
-Following are the steps to run the frontend of the community-website. All the frontend code will go in the frontend directory.
+Following are the steps to run the frontend. All the frontend code will go in the filterbubbles directory.
 
 1) Navigate to frontend folder using cd filterbubbles.
 2) Run npm install. It will install all the required packages and dependencies.
