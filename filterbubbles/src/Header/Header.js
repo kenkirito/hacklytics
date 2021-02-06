@@ -87,7 +87,7 @@ import {
     const displayDesktop = () => {
       return (
         <Toolbar className={toolbar}>
-          {femmecubatorLogo}
+          {FilterbubbleLogo}
           <div>{getMenuButtons()}</div>
         </Toolbar>
       );
@@ -123,7 +123,7 @@ import {
             <div className={drawerContainer}>{getDrawerChoices()}</div>
           </Drawer>
   
-          <div>{femmecubatorLogo}</div>
+          <div>{FilterbubbleLogo}</div>
         </Toolbar>
       );
     };
@@ -146,9 +146,9 @@ import {
       });
     };
   
-    const femmecubatorLogo = (
+    const FilterbubbleLogo = (
       <Typography variant="h6" component="h1" className={logo}>
-        Femmecubator
+       Filterbubble
       </Typography>
     );
   
